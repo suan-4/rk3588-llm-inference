@@ -1,0 +1,12 @@
+# shell 脚本必须保持 LF，否则在 Linux 上跑不起来
+*.sh text eol=lf
+*.py text eol=lf
+
+# Windows 脚本保持 CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# 二进制
+*.pyc binary
+*.rkllm binary
+*.rknn binary

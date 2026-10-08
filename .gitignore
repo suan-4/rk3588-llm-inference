@@ -1,0 +1,28 @@
+# 模型文件（单个超 GitHub 100 MB 限制，获取方式见 README）
+models/
+sdk/
+archive/
+
+# 板子上的编译产物 / 二进制（非源码）
+tools/
+
+# 测试产生的报告输出
+report_test_*.txt
+
+# Python
+__pycache__/
+*.pyc
+!backend/services/kg_service.pyc
+!backend/models/schemas.pyc
+
+# 损坏文件的留证（内容是全零，没有价值）
+*.CORRUPTED-全零
+*.corrupt-*
+*.broken
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地临时
+*.log
